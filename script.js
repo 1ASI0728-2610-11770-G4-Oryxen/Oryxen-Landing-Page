@@ -181,25 +181,25 @@ const translations = {
     },
     hero: {
       title: 'Take care of your plants<br />effortlessly',
-      text: 'PlantCare makes it easy to water and feed your plants using<br class="desktop-break" />smart technology for healthier, happier plants.',
+      text: 'Oryxen combines automated caring and AI diagnostics to keep<br class="desktop-break" /> your plants healthy, thriving and happier.',
         getStarted: 'Try our web app',
       downloadApp: 'Try our mobile app'
     },
     about: {
       title: 'About the Product',
       teamTitle: 'About the Team',
-      teamText1: 'At PlantCare, we believe in sustainable living. We want to help everyone care for their plants effectively by leveraging cutting-edge technology that\'s easy to use and fun for the whole family!',
-      teamText2: 'PlantCare adapts to your lifestyle and the needs of your plants. We believe that technology should enhance our connection with nature, not replace it; that\'s why every feature is designed to help you take better care of your plants.',
+      teamText1: 'At Oryxen, we bridge the gap between nature and technology. By combining automated hardware with advanced AI analytics, we transform traditional plant care into a precise, stress-free, and data-driven experience.',
+      teamText2: 'Our ecosystem monitors your plants vital metrics in real time to deliver the exact care they need.',
       productTitle: 'About the Product',
-      productText1: 'At PlantCare, we believe in sustainable living. We want to help everyone care for their plants effectively by leveraging cutting-edge technology that\'s easy to use and fun for the whole family!',
+      productText1: 'At Oryxen, we bridge the gap between nature and technology. By combining automated hardware with advanced AI analytics, we transform traditional plant care into a precise, stress-free, and data-driven experience.',
       meetTeamTitle: 'See Our Product in Action',
       seeProductTitle: 'Meet Our Team'
     },
     services: {
       title: 'Services',
       monitoring: {
-        title: 'Monitoring',
-        text: 'Keep a constant eye on the environmental of your plants using PlantCare\'s smart sensors and get real-time data.'
+        title: 'Monitoring with AI',
+        text: 'Keep a constant eye on the environmental of your plants using Oryxen\'s smart sensors and get real-time data for access recommendations with an AI chatbot.'
       },
       watering: {
         title: 'Watering',
@@ -331,15 +331,15 @@ const translations = {
     },
     hero: {
       title: 'Cuida tus plantas<br />fácilmente',
-      text: 'PlantCare facilita el riego y alimentación de tus plantas usando<br class="desktop-break" />tecnología inteligente para plantas más saludables y felices.',
+      text: 'Oryxen combina cuidado automatizado y diagnósticos con IA para mantener tus plantas saludables, prosperando y más felices.',
         getStarted: 'Prueba nuestra app',
       downloadApp: 'Prueba nuestra app móvil'
     },
     about: {
       title: 'Acerca del Producto',
       teamTitle: 'Acerca del Equipo',
-      teamText1: 'PlantCare es más que un sistema de monitoreo inteligente: es un ecosistema completo diseñado para que el cuidado de las plantas sea fácil y placentero. Nuestro producto combina sensores avanzados, algoritmos inteligentes e interfaces fáciles de usar para brindar información sobre la salud y las necesidades de tus plantas.',
-      teamText2: 'PlantCare se adapta a tu estilo de vida y a las necesidades de tus plantas. Creemos que la tecnología debe potenciar nuestra conexión con la naturaleza, no reemplazarla; por eso, cada función está diseñada para ayudarte a cuidar mejor de tus plantas.',
+      teamText1: 'En Oryxen, cerramos la brecha entre la naturaleza y la tecnología. Al combinar hardware automatizado con análisis avanzados de inteligencia artificial, transformamos el cuidado tradicional de las plantas en una experiencia precisa, sin estrés y basada en datos.',
+      teamText2: 'Nuestro ecosistema monitorea los métricos vitales de tus plantas en tiempo real para proporcionarles el cuidado exacto que necesitan.',
       productTitle: 'Acerca del Producto',
       productText1: 'En PlantCare, creemos en la vida sostenible. Queremos ayudar a todos a cuidar sus plantas de manera efectiva aprovechando tecnología de vanguardia que es fácil de usar y divertida para toda la familia.',
       meetTeamTitle: 'Ve Nuestro Producto en Acción',
@@ -348,7 +348,7 @@ const translations = {
     services: {
       title: 'Servicios',
       monitoring: {
-        title: 'Monitoreo',
+        title: 'Monitoreo con IA',
         text: 'Mantén un ojo constante en el ambiente de tus plantas usando los sensores inteligentes de PlantCare y obtén datos en tiempo real.'
       },
       watering: {

@@ -212,14 +212,14 @@ const translations = {
     },
     howItWorks: {
       title: 'How It Works',
-      subtitle: 'Get started with PlantCare in 4 easy steps and transform the way you care for your plants.',
+      subtitle: 'Get started with Oryxen in 4 easy steps and transform the way you care for your plants.',
       step1: {
         title: 'Mount or move to your plant',
         text: 'Set up your plant in any indoor or outdoor space, mount or place the monitor where needed.'
       },
       step2: {
         title: 'Connect to Wifi App',
-        text: 'Download the PlantCare app to your mobile device, connect the monitor to your home wifi for easy access.'
+        text: 'Download the Oryxen app to your mobile device, connect the monitor to your home wifi for easy access.'
       },
       step3: {
         title: 'Receive smart notifications',
@@ -362,14 +362,14 @@ const translations = {
     },
     howItWorks: {
       title: 'Cómo Funciona',
-      subtitle: 'Comienza con PlantCare en 4 sencillos pasos y transforma la forma en que cuidas tus plantas.',
+      subtitle: 'Comienza con Oryxen en 4 sencillos pasos y transforma la forma en que cuidas tus plantas.',
       step1: {
         title: 'Monta o mueve hacia tu planta',
         text: 'Configura tu planta en cualquier espacio interior o exterior, monta o coloca el monitor donde sea necesario.'
       },
       step2: {
         title: 'Conecta a la App WiFi',
-        text: 'Descarga la aplicación PlantCare en tu dispositivo móvil, conecta el monitor a tu wifi doméstico para fácil acceso.'
+        text: 'Descarga la aplicación Oryxen en tu dispositivo móvil, conecta el monitor a tu wifi doméstico para fácil acceso.'
       },
       step3: {
         title: 'Recibe notificaciones inteligentes',

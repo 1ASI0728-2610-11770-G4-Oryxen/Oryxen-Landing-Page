@@ -231,7 +231,7 @@ const translations = {
       }
     },
     benefits: {
-      title: 'Why Choose PlantCare?',
+      title: 'Why Choose Oryxen?',
       subtitle: 'Discover the benefits of using our smart plant care system and join thousands of happy plant parents.',
       benefit1: {
         title: 'Proper care for your plant',
@@ -381,7 +381,7 @@ const translations = {
       }
     },
     benefits: {
-      title: '¿Por Qué Elegir PlantCare?',
+      title: '¿Por Qué Elegir Oryxen?',
       subtitle: 'Descubre los beneficios de usar nuestro sistema inteligente de cuidado de plantas y únete a miles de padres de plantas felices.',
       benefit1: {
         title: 'Cuidado apropiado para tu planta',

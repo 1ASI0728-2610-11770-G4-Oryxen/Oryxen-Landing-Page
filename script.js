@@ -280,33 +280,22 @@ const translations = {
     },
     testimonials: {
       title: 'What Our Users Say',
-      subtitle: 'Join thousands of happy customers who have transformed their plant care routine with PlantCare.',
+      subtitle: 'Join thousands of happy customers who have transformed their plant care routine with Oryxen.',
       testimonial1: {
-        text: 'I\'ve never been able to keep a plant alive for more than a month, but PlantCare has completely changed that! My plants are thriving and I finally understand what they need.',
+        text: 'I\'ve never been able to keep a plant alive for more than a month, but Oryxen has completely changed that! My plants are thriving and I finally understand what they need.',
         author: 'Sarah Chen',
         role: 'Plant Enthusiast'
       },
       testimonial2: {
-        text: 'As someone who decorates homes with plants, PlantCare has been a game-changer for my clients. They love how easy it is to maintain their greenery!',
+        text: 'As someone who decorates homes with plants, Oryxen has been a game-changer for my clients. They love how easy it is to maintain their greenery!',
         author: 'Emma Rodriguez',
         role: 'Interior Designer'
       },
       testimonial3: {
-        text: 'With my hectic schedule, I never had time to properly care for my plants. PlantCare takes all the guesswork out of it. Highly recommend!',
+        text: 'With my hectic schedule, I never had time to properly care for my plants. Oryxen takes all the guesswork out of it. Highly recommend!',
         author: 'Michael Thompson',
         role: 'Busy Professional'
       }
-    },
-    newsletter: {
-      title: 'Start Your Journey to Better Plant Care Today',
-      text: 'Join our community of plant lovers and get exclusive tips, offers, and updates delivered to your inbox.',
-      placeholder: 'Enter your email',
-      subscribe: 'Subscribe',
-      benefits: [
-        '✓ Weekly plant care tips',
-        '✓ Exclusive offers',
-        '✓ New product updates'
-      ]
     },
     footer: {
       description: 'Making plant care effortless through smart technology and dedicated support for plant lovers everywhere.',
@@ -316,7 +305,7 @@ const translations = {
       supportLinks: ['Help Center', 'Contact', 'Live Chat', 'FAQ'],
       legal: 'Legal',
       legalLinks: ['Terms of Use', 'Privacy Policy', 'Cookies', 'DMCA'],
-      copyright: '© 2025 PlantCare. All rights reserved.'
+      copyright: '© 2025 Oryxen. All rights reserved.'
     }
   },
   es: {
@@ -430,33 +419,22 @@ const translations = {
     },
     testimonials: {
       title: 'Lo Que Dicen Nuestros Usuarios',
-      subtitle: 'Únete a miles de clientes felices que han transformado su rutina de cuidado de plantas con PlantCare.',
+      subtitle: 'Únete a miles de clientes felices que han transformado su rutina de cuidado de plantas con Oryxen.',
       testimonial1: {
-        text: 'Nunca había podido mantener una planta viva por más de un mes, ¡pero PlantCare ha cambiado eso completamente! Mis plantas están prosperando y finalmente entiendo lo que necesitan.',
+        text: 'Nunca había podido mantener una planta viva por más de un mes, ¡pero Oryxen ha cambiado eso completamente! Mis plantas están prosperando y finalmente entiendo lo que necesitan.',
         author: 'Sarah Chen',
         role: 'Entusiasta de Plantas'
       },
       testimonial2: {
-        text: 'Como alguien que decora hogares con plantas, PlantCare ha sido un cambio total para mis clientes. ¡Les encanta lo fácil que es mantener su vegetación!',
+        text: 'Como alguien que decora hogares con plantas, Oryxen ha sido un cambio total para mis clientes. ¡Les encanta lo fácil que es mantener su vegetación!',
         author: 'Emma Rodriguez',
         role: 'Diseñadora de Interiores'
       },
       testimonial3: {
-        text: 'Con mi horario agitado, nunca tuve tiempo para cuidar adecuadamente mis plantas. PlantCare elimina toda la incertidumbre. ¡Altamente recomendado!',
+        text: 'Con mi horario agitado, nunca tuve tiempo para cuidar adecuadamente mis plantas. Oryxen elimina toda la incertidumbre. ¡Altamente recomendado!',
         author: 'Michael Thompson',
         role: 'Profesional Ocupado'
       }
-    },
-    newsletter: {
-      title: 'Comienza Tu Viaje Hacia un Mejor Cuidado de Plantas Hoy',
-      text: 'Únete a nuestra comunidad de amantes de las plantas y recibe consejos exclusivos, ofertas y actualizaciones en tu bandeja de entrada.',
-      placeholder: 'Ingresa tu email',
-      subscribe: 'Suscribirse',
-      benefits: [
-        '✓ Consejos semanales de cuidado de plantas',
-        '✓ Ofertas exclusivas',
-        '✓ Actualizaciones de nuevos productos'
-      ]
     },
     footer: {
       description: 'Haciendo el cuidado de plantas sin esfuerzo a través de tecnología inteligente y soporte dedicado para amantes de plantas en todas partes.',
@@ -466,7 +444,7 @@ const translations = {
       supportLinks: ['Centro de Ayuda', 'Contacto', 'Chat en Vivo', 'FAQ'],
       legal: 'Legal',
       legalLinks: ['Términos de Uso', 'Política de Privacidad', 'Cookies', 'DMCA'],
-      copyright: '© 2025 PlantCare. Todos los derechos reservados.'
+      copyright: '© 2025 Oryxen. Todos los derechos reservados.'
     }
   }
 };

@@ -341,7 +341,7 @@ const translations = {
       teamText1: 'En Oryxen, cerramos la brecha entre la naturaleza y la tecnología. Al combinar hardware automatizado con análisis avanzados de inteligencia artificial, transformamos el cuidado tradicional de las plantas en una experiencia precisa, sin estrés y basada en datos.',
       teamText2: 'Nuestro ecosistema monitorea los métricos vitales de tus plantas en tiempo real para proporcionarles el cuidado exacto que necesitan.',
       productTitle: 'Acerca del Producto',
-      productText1: 'En PlantCare, creemos en la vida sostenible. Queremos ayudar a todos a cuidar sus plantas de manera efectiva aprovechando tecnología de vanguardia que es fácil de usar y divertida para toda la familia.',
+      productText1: 'En Oryxen, creemos en la vida sostenible. Queremos ayudar a todos a cuidar sus plantas de manera efectiva aprovechando tecnología de vanguardia que es fácil de usar y divertida para toda la familia.',
       meetTeamTitle: 'Ve Nuestro Producto en Acción',
       seeProductTitle: 'Conoce a Nuestro Equipo'
     },

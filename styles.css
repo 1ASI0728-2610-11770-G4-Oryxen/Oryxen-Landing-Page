@@ -773,3 +773,111 @@ body {
   font-size: 0.9rem;
   color: #666;
 }
+
+/* Videos Section */
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.video-card {
+  text-align: center;
+}
+
+.video-title {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  border-radius: 12px;
+  aspect-ratio: 16 / 9;
+}
+
+/* Plans & Pricing Section */
+.pricing {
+  background-color: var(--background);
+}
+
+.pricing-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pricing-card {
+  padding: 2rem;
+  background-color: var(--card);
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.pricing-card-featured {
+  border-color: var(--primary);
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(138, 199, 61, 0.2);
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
+}
+
+.pricing-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.price-amount {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.price-period {
+  color: var(--muted-foreground);
+  margin-left: 0.5rem;
+}
+
+.pricing-features {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.pricing-features li {
+  color: var(--muted-foreground);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.pricing-btn {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 50rem;
+  }
+}

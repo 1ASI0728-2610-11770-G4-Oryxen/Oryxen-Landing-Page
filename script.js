@@ -255,28 +255,28 @@ const translations = {
       subtitle: 'Choose the best plan that fits your plant care needs and start your journey to greener living.',
       basic: {
         name: 'Basic',
-        price: '$29',
+        price: 'S/.25',
         period: '/month',
         features: [
-          '✓ 1 plant monitor',
+          '✓ 3 plants monitor',
           '✓ Basic watering',
-          '✓ Mobile app access',
+          '✓ Access to Chatbot AI basic functions',
           '✓ Email support'
         ]
       },
       premium: {
         name: 'Premium',
-        price: '$49',
+        price: 'S/.50',
         period: '/month',
         features: [
-          '✓ Up to 5 plant monitors',
+          '✓ Unlimited plant monitors',
           '✓ Advanced watering',
-          '✓ Mobile & web app',
           '✓ Priority support',
-          '✓ Plant care library',
+          '✓ Access to Chatbot AI premium functions',
           '✓ Community access'
         ]
-      }
+      },
+      button: 'Get Started'
     },
     testimonials: {
       title: 'What Our Users Say',
@@ -405,28 +405,28 @@ const translations = {
       subtitle: 'Elige el mejor plan que se adapte a tus necesidades de cuidado de plantas y comienza tu viaje hacia una vida más verde.',
       basic: {
         name: 'Básico',
-        price: '$29',
+        price: 'S/.25',
         period: '/mes',
         features: [
-          '✓ 1 monitor de planta',
+          '✓ 3 monitores de plantas',
           '✓ Riego básico',
-          '✓ Acceso a app móvil',
+          '✓ Acceso a funciones básicas del Chatbot AI',
           '✓ Soporte por email'
         ]
       },
       premium: {
         name: 'Premium',
-        price: '$49',
+        price: 'S/.50',
         period: '/mes',
         features: [
-          '✓ Hasta 5 monitores de plantas',
+          '✓ Ilimitados monitores de plantas',
           '✓ Riego avanzado',
-          '✓ App móvil y web',
           '✓ Soporte prioritario',
-          '✓ Biblioteca de cuidado de plantas',
-          '✓ Acceso a comunidad'
+          '✓ Accesso a funciones premium del Chatbot AI',
+          '✓ Acceso a la comunidad'
         ]
-      }
+      },
+      button: 'Comenzar'
     },
     testimonials: {
       title: 'Lo Que Dicen Nuestros Usuarios',
@@ -639,6 +639,11 @@ function updateLanguage() {
       if (premiumFeatures[index]) premiumFeatures[index].textContent = feature;
     });
   }
+
+  const pricingButtons = document.querySelectorAll('.pricing-btn');
+  pricingButtons.forEach(button => {
+    button.textContent = t.pricing.button;
+  });
   
   // Update Testimonials section
   const testimonialsTitle = document.querySelector('#testimonials .section-title');

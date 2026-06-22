@@ -196,6 +196,36 @@ const translations = {
     'footer.terms': 'Terms of Service',
     'footer.privacy': 'Privacy Policy',
     'footer.copyright': '© 2026 Oryxen. All rights reserved.',
+    'terms.title': 'Terms & Conditions',
+    'terms.subtitle': 'The rules governing your use of Oryxen',
+    'terms.lastUpdated': 'Last updated: June 2026',
+    'terms.intro':
+      'By accessing or using the Oryxen platform (website, web application and mobile application) you agree to be bound by these Terms & Conditions. Please read them carefully before using any of our services.',
+    'terms.s1Title': '1. Acceptance of Terms',
+    'terms.s1Body':
+      'By creating an account or using any Oryxen feature you accept these terms in full. If you do not agree with any part of them you must not use the platform.',
+    'terms.s2Title': '2. Description of Service',
+    'terms.s2Body':
+      'Oryxen provides smart plant monitoring through IoT sensors, AI diagnostics and a companion application. We may modify, suspend or discontinue any feature at any time without prior notice.',
+    'terms.s3Title': '3. Eligibility',
+    'terms.s3Body':
+      'You must be at least 18 years old and legally capable of entering into binding agreements to use Oryxen. By registering you confirm that you meet these requirements.',
+    'terms.s4Title': '4. Privacy',
+    'terms.s4Body':
+      'Your use of Oryxen is also governed by our Privacy Policy. We collect telemetry data from your sensors and account information solely to deliver and improve the service.',
+    'terms.s5Title': '5. Intellectual Property',
+    'terms.s5Body':
+      'All software, designs, trademarks and content on Oryxen are the exclusive property of the Oryxen team. You may not copy, redistribute or reverse engineer any part of the platform without written consent.',
+    'terms.s6Title': '6. Limitation of Liability',
+    'terms.s6Body':
+      'Oryxen is provided "as is" without warranties of any kind. We are not liable for indirect, incidental or consequential damages arising from the use or inability to use the platform, including loss of plants or crops.',
+    'terms.s7Title': '7. Modifications',
+    'terms.s7Body':
+      'We reserve the right to update these Terms & Conditions at any time. Continued use of the platform after changes are published constitutes acceptance of the revised terms.',
+    'terms.s8Title': '8. Jurisdiction',
+    'terms.s8Body':
+      'These terms are governed by the laws of Peru. Any dispute shall be resolved in the competent courts of Lima, Peru.',
+    'terms.backHome': 'Back to home',
   },
   es: {
     'nav.about': 'Acerca del Producto',
@@ -298,6 +328,36 @@ const translations = {
     'footer.terms': 'Términos de Servicio',
     'footer.privacy': 'Política de Privacidad',
     'footer.copyright': '© 2026 Oryxen. Todos los derechos reservados.',
+    'terms.title': 'Términos y Condiciones',
+    'terms.subtitle': 'Las reglas que rigen el uso de Oryxen',
+    'terms.lastUpdated': 'Última actualización: junio 2026',
+    'terms.intro':
+      'Al acceder o usar la plataforma Oryxen (sitio web, aplicación web y aplicación móvil) aceptas estar sujeto a estos Términos y Condiciones. Léelos cuidadosamente antes de utilizar cualquiera de nuestros servicios.',
+    'terms.s1Title': '1. Aceptación de Términos',
+    'terms.s1Body':
+      'Al crear una cuenta o usar cualquier función de Oryxen aceptas estos términos en su totalidad. Si no estás de acuerdo con alguna parte de los mismos no debes usar la plataforma.',
+    'terms.s2Title': '2. Descripción del Servicio',
+    'terms.s2Body':
+      'Oryxen proporciona monitoreo inteligente de plantas mediante sensores IoT, diagnóstico con IA y una aplicación complementaria. Podemos modificar, suspender o discontinuar cualquier función en cualquier momento sin previo aviso.',
+    'terms.s3Title': '3. Elegibilidad',
+    'terms.s3Body':
+      'Debes tener al menos 18 años y capacidad legal para celebrar acuerdos vinculantes para usar Oryxen. Al registrarte confirmas que cumples con estos requisitos.',
+    'terms.s4Title': '4. Privacidad',
+    'terms.s4Body':
+      'Tu uso de Oryxen también se rige por nuestra Política de Privacidad. Recopilamos datos de telemetría de tus sensores e información de cuenta únicamente para entregar y mejorar el servicio.',
+    'terms.s5Title': '5. Propiedad Intelectual',
+    'terms.s5Body':
+      'Todo el software, diseños, marcas y contenido de Oryxen son propiedad exclusiva del equipo Oryxen. No puedes copiar, redistribuir ni realizar ingeniería inversa de ninguna parte de la plataforma sin consentimiento por escrito.',
+    'terms.s6Title': '6. Limitación de Responsabilidad',
+    'terms.s6Body':
+      'Oryxen se proporciona "tal cual" sin garantías de ningún tipo. No nos hacemos responsables de daños indirectos, incidentales o consecuentes derivados del uso o incapacidad de uso de la plataforma, incluida la pérdida de plantas o cultivos.',
+    'terms.s7Title': '7. Modificaciones',
+    'terms.s7Body':
+      'Nos reservamos el derecho de actualizar estos Términos y Condiciones en cualquier momento. El uso continuado de la plataforma después de la publicación de cambios constituye la aceptación de los términos revisados.',
+    'terms.s8Title': '8. Jurisdicción',
+    'terms.s8Body':
+      'Estos términos se rigen por las leyes de Perú. Cualquier disputa se resolverá en los tribunales competentes de Lima, Perú.',
+    'terms.backHome': 'Volver al inicio',
   },
 };
 
@@ -337,4 +397,15 @@ document.getElementById('langToggleMobile')?.addEventListener('click', toggleLan
 
 document.addEventListener('DOMContentLoaded', () => {
   applyTranslations(currentLanguage);
+
+  // Resolve every [data-app-link] anchor against the runtime config so the
+  // landing page never hardcodes the web app URL. Falls back gracefully if
+  // config.js is missing.
+  const cfg = window.ORYXEN_CONFIG;
+  if (cfg && cfg.webAppUrl) {
+    document.querySelectorAll('[data-app-link]').forEach((anchor) => {
+      const path = anchor.getAttribute('data-app-link') || '';
+      anchor.setAttribute('href', `${cfg.webAppUrl}${path}`);
+    });
+  }
 });

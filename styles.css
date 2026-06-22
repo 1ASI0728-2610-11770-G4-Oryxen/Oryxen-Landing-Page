@@ -856,3 +856,112 @@ body {
 @media (min-width: 768px) {
   .footer__grid { grid-template-columns: repeat(4, 1fr); }
 }
+
+/* ============================================================================
+   Terms & Conditions page
+   ========================================================================== */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 1000;
+  padding: 0.75rem 1.25rem;
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+  font-weight: 600;
+  border-radius: 0 0 var(--radius-md) 0;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+.terms-header {
+  background: var(--color-card);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.terms-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--nav-height);
+}
+.terms-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-fg);
+  text-decoration: none;
+}
+.terms-header__link {
+  color: var(--color-muted-foreground);
+  text-decoration: none;
+  font-weight: 500;
+}
+.terms-header__link:hover {
+  color: var(--color-primary);
+}
+
+.terms-page {
+  padding: 3rem 0 4rem;
+}
+.terms-document {
+  max-width: 760px;
+  margin: 0 auto;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 3rem;
+  box-shadow: var(--shadow-card);
+}
+.terms-document__title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+}
+.terms-document__subtitle {
+  color: var(--color-muted-foreground);
+  margin: 0 0 0.25rem;
+}
+.terms-document__updated {
+  font-size: 0.85rem;
+  color: var(--color-muted-foreground);
+  opacity: 0.8;
+  margin: 0 0 2rem;
+}
+.terms-document__intro {
+  margin: 0 0 2rem;
+  line-height: 1.7;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.terms-document__section {
+  margin-bottom: 1.75rem;
+  scroll-margin-top: calc(var(--nav-height) + 1rem);
+}
+.terms-document__heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+.terms-document__body {
+  line-height: 1.7;
+  color: var(--color-muted-foreground);
+}
+.terms-document__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .terms-document { padding: 1.75rem 1.25rem; }
+  .terms-document__title { font-size: 1.5rem; }
+}

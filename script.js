@@ -408,4 +408,12 @@ document.addEventListener('DOMContentLoaded', () => {
       anchor.setAttribute('href', `${cfg.webAppUrl}${path}`);
     });
   }
+
+  // a11y: hide purely decorative inline icons from assistive technology. Each card
+  // already exposes its meaning through a visible heading, so the SVG is redundant.
+  document
+    .querySelectorAll(
+      '.service-card__icon svg, .step-card__icon svg, .benefit-card__icon svg, .footer__social-link svg',
+    )
+    .forEach((svg) => svg.setAttribute('aria-hidden', 'true'));
 });

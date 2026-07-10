@@ -10,16 +10,17 @@
     <meta property="og:title" content="Oryxen - Smart Plant Care Solution" />
     <meta property="og:description" content="Take care of your plants effortlessly with Oryxen's smart monitoring system" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/assets/oryxen_logo.png" />
+    <meta property="og:image" content="./assets/oryxen_logo.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@oryxen" />
-    <meta name="twitter:image" content="/assets/oryxen_logo.png" />
+    <meta name="twitter:image" content="./assets/oryxen_logo.png" />
 
+    <link rel="icon" type="image/png" href="./assets/oryxen_logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -28,7 +29,7 @@
       <div class="container nav__container">
         <div class="nav__brand">
           <a href="#hero">
-            <img src="/assets/oryxen_logo.png" alt="Oryxen logo" class="nav__logo">
+            <img src="./assets/oryxen_logo.png" alt="Oryxen logo" class="nav__logo">
           </a>
         </div>
 
@@ -41,6 +42,9 @@
           <a href="#" data-app-link="/login" class="button button--primary button--sm nav__cta">
             <span class="nav__cta-label" data-i18n="nav.cta">Open the app</span>
             <span class="nav__cta-badge" aria-hidden="true"></span>
+          </a>
+          <a href="https://oryxen-web-application.vercel.app/login?redirect=/dashboard" class="nav__link" rel="noopener" aria-label="Ir a Oryxen Web App">
+            <span data-i18n="nav.webapp">Web App</span>
           </a>
           <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
             <span class="lang-toggle__text">ES</span>
@@ -61,6 +65,9 @@
         <a href="#" data-app-link="/login" class="button button--primary nav__cta nav__cta--mobile">
           <span class="nav__cta-label" data-i18n="nav.cta">Open the app</span>
         </a>
+        <a href="https://oryxen-web-application.vercel.app/login?redirect=/dashboard" class="nav__mobile-link" rel="noopener" aria-label="Ir a Oryxen Web App">
+          <span data-i18n="nav.webapp">Web App</span>
+        </a>
         <button class="lang-toggle lang-toggle--mobile" id="langToggleMobile" aria-label="Toggle language">
           <span class="lang-toggle__text">ES</span>
         </button>
@@ -79,8 +86,8 @@
           your plants healthy, thriving and happier.
         </p>
         <div class="hero__actions">
-          <a href="#" data-app-link="/login" class="button button--primary button--lg hero__cta">
-            <span data-i18n="hero.cta">Open the web app</span>
+          <a href="https://oryxen-web-application.vercel.app/login?redirect=/dashboard" class="button button--primary button--lg hero__cta" rel="noopener" aria-label="Iniciar sesión en Oryxen Web">
+            <span data-i18n="hero.cta">Iniciar sesión</span>
           </a>
           <a href="#how-it-works" class="button button--primary button--lg hero__secondary">
             <span data-i18n="hero.secondary">See how it works</span>
@@ -106,13 +113,8 @@
 
           <div class="about__media">
             <h4 class="about__media-title" data-i18n="about.videoTitle">See Our Product in Action</h4>
-            <div class="about__video">
-              <iframe
-                src="https://www.youtube.com/embed/?listType=user_uploads"
-                title="About the Product - Oryxen"
-                loading="lazy"
-                allowfullscreen
-              ></iframe>
+            <div class="about__video about__video--placeholder">
+              <p data-i18n="about.videoPending">Product video coming soon — it will be published on the Oryxen YouTube channel before release.</p>
             </div>
           </div>
         </div>
@@ -283,13 +285,8 @@
 
           <div class="about__media">
             <h4 class="about__media-title" data-i18n="team.videoTitle">Meet Our Team</h4>
-            <div class="about__video">
-              <iframe
-                src="https://www.youtube.com/embed/?listType=user_uploads"
-                title="About the Team - Oryxen"
-                loading="lazy"
-                allowfullscreen
-              ></iframe>
+            <div class="about__video about__video--placeholder">
+              <p data-i18n="team.videoPending">Team video coming soon — it will be published on the Oryxen YouTube channel before release.</p>
             </div>
           </div>
         </div>
@@ -306,10 +303,6 @@
           <article class="team-card">
             <img src="./assets/Alessandro_Zevallos.jpg" alt="Alessandro Zevallos" class="team-card__photo" />
             <h3 class="team-card__name">Alessandro Zevallos</h3>
-          </article>
-          <article class="team-card">
-            <img src="./assets/Alejandro_Pachas.png" alt="Alejandro Pachas" class="team-card__photo" />
-            <h3 class="team-card__name">Alejandro Pachas</h3>
           </article>
         </div>
       </div>
@@ -420,20 +413,7 @@
             <p class="footer__description" data-i18n="footer.description">
               Making plant care effortless through smart technology and dedicated support for plant lovers everywhere.
             </p>
-            <div class="footer__social">
-              <a href="#" class="footer__social-link" aria-label="Facebook">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-              </a>
-              <a href="#" class="footer__social-link" aria-label="Twitter">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
-              </a>
-              <a href="#" class="footer__social-link" aria-label="Instagram">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
-              </a>
-              <a href="#" class="footer__social-link" aria-label="YouTube">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><polygon points="10 15 15 12 10 9 10 15"/></svg>
-              </a>
-            </div>
+            
           </div>
 
           <div class="footer__column">
@@ -447,16 +427,16 @@
           <div class="footer__column">
             <h4 class="footer__heading" data-i18n="footer.support">Support</h4>
             <ul class="footer__list">
-              <li class="footer__item"><a href="#" class="footer__link" data-i18n="footer.help">Help Center</a></li>
-              <li class="footer__item"><a href="#" class="footer__link" data-i18n="footer.contact">Contact</a></li>
+              <li class="footer__item"><a href="mailto:support@oryxen.io" class="footer__link" data-i18n="footer.help">Help Center</a></li>
+              <li class="footer__item"><a href="mailto:contact@oryxen.io" class="footer__link" data-i18n="footer.contact">Contact</a></li>
             </ul>
           </div>
 
           <div class="footer__column">
             <h4 class="footer__heading" data-i18n="footer.legal">Legal</h4>
             <ul class="footer__list">
-              <li class="footer__item"><a href="/terms.html" class="footer__link" data-i18n="footer.terms">Terms of Service</a></li>
-              <li class="footer__item"><a href="/terms.html#privacy" class="footer__link" data-i18n="footer.privacy">Privacy Policy</a></li>
+              <li class="footer__item"><a href="./terms.html" class="footer__link" data-i18n="footer.terms">Terms of Service</a></li>
+              <li class="footer__item"><a href="./terms.html#privacy" class="footer__link" data-i18n="footer.privacy">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
@@ -467,7 +447,7 @@
       </div>
     </footer>
 
-    <script src="/config.js"></script>
-    <script src="/script.js"></script>
+    <script src="./config.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

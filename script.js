@@ -102,10 +102,11 @@ const translations = {
     'nav.pricing': 'Pricing',
     'nav.testimonials': 'Testimonials',
     'nav.cta': 'Open the app',
+    'nav.webapp': 'Web App',
     'hero.title': 'Take care of your plants<br />effortlessly',
     'hero.text':
       'Oryxen combines automated caring and AI diagnostics to keep<br class="hero__break" /> your plants healthy, thriving and happier.',
-    'hero.cta': 'Open the web app',
+    'hero.cta': 'Log in',
     'hero.secondary': 'See how it works',
     'about.title': 'About the Product',
     'about.text1':
@@ -236,10 +237,11 @@ const translations = {
     'nav.pricing': 'Precios',
     'nav.testimonials': 'Testimonios',
     'nav.cta': 'Ingresar a la app',
+    'nav.webapp': 'Web App',
     'hero.title': 'Cuida tus plantas<br />fácilmente',
     'hero.text':
       'Oryxen combina cuidado automatizado y diagnósticos con IA para mantener<br class="hero__break" /> tus plantas saludables, prósperas y más felices.',
-    'hero.cta': 'Ingresar a la app web',
+    'hero.cta': 'Iniciar sesión',
     'hero.secondary': 'Cómo funciona',
     'about.title': 'Acerca del Producto',
     'about.text1':

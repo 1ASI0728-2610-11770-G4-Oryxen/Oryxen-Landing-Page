@@ -8,5 +8,5 @@
    ========================================================================== */
 window.ORYXEN_CONFIG = {
   // Public URL of the deployed Oryxen Web Application (Vercel).
-  webAppUrl: 'https://YOUR-WEB-APP.vercel.app',
+  webAppUrl: 'https://oryxen-web-application.vercel.app',
 };

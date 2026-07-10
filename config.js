@@ -8,5 +8,7 @@
    ========================================================================== */
 window.ORYXEN_CONFIG = {
   // Base URL of the Oryxen Web Application (login / register / dashboard).
+  // LOCAL DEVELOPMENT default. Before deploying, replace with the public URL
+  // (see config.example.js) — otherwise every CTA points to localhost.
   webAppUrl: 'http://localhost:5173',
 };

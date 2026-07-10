@@ -102,10 +102,11 @@ const translations = {
     'nav.pricing': 'Pricing',
     'nav.testimonials': 'Testimonials',
     'nav.cta': 'Open the app',
+    'nav.webapp': 'Web App',
     'hero.title': 'Take care of your plants<br />effortlessly',
     'hero.text':
       'Oryxen combines automated caring and AI diagnostics to keep<br class="hero__break" /> your plants healthy, thriving and happier.',
-    'hero.cta': 'Open the web app',
+    'hero.cta': 'Log in',
     'hero.secondary': 'See how it works',
     'about.title': 'About the Product',
     'about.text1':
@@ -113,6 +114,7 @@ const translations = {
     'about.text2':
       'Our ecosystem monitors your plants vital metrics in real time to deliver the exact care they need.',
     'about.videoTitle': 'See Our Product in Action',
+    'about.videoPending': 'Product video coming soon — it will be published on the Oryxen YouTube channel before release.',
     'services.title': 'Services',
     'services.monitoring.title': 'Monitoring with AI',
     'services.monitoring.text':
@@ -157,6 +159,7 @@ const translations = {
     'team.text':
       "At Oryxen, we believe in sustainable living. We want to help everyone care for their plants effectively by leveraging cutting-edge technology that's easy to use and fun for the whole family!",
     'team.videoTitle': 'Meet Our Team',
+    'team.videoPending': 'Team video coming soon — it will be published on the Oryxen YouTube channel before release.',
     'pricing.title': 'Plans & Pricing',
     'pricing.subtitle':
       'Choose the best plan that fits your plant care needs and start your journey to greener living.',
@@ -234,10 +237,11 @@ const translations = {
     'nav.pricing': 'Precios',
     'nav.testimonials': 'Testimonios',
     'nav.cta': 'Ingresar a la app',
+    'nav.webapp': 'Web App',
     'hero.title': 'Cuida tus plantas<br />fácilmente',
     'hero.text':
       'Oryxen combina cuidado automatizado y diagnósticos con IA para mantener<br class="hero__break" /> tus plantas saludables, prósperas y más felices.',
-    'hero.cta': 'Ingresar a la app web',
+    'hero.cta': 'Iniciar sesión',
     'hero.secondary': 'Cómo funciona',
     'about.title': 'Acerca del Producto',
     'about.text1':
@@ -245,6 +249,7 @@ const translations = {
     'about.text2':
       'Nuestro ecosistema monitorea las métricas vitales de tus plantas en tiempo real para brindarles el cuidado exacto que necesitan.',
     'about.videoTitle': 'Ve Nuestro Producto en Acción',
+    'about.videoPending': 'Video del producto próximamente — se publicará en el canal de YouTube de Oryxen antes del lanzamiento.',
     'services.title': 'Servicios',
     'services.monitoring.title': 'Monitoreo con IA',
     'services.monitoring.text':
@@ -289,6 +294,7 @@ const translations = {
     'team.text':
       'En Oryxen, creemos en la vida sostenible. Queremos ayudar a todos a cuidar sus plantas de manera efectiva aprovechando tecnología de vanguardia que es fácil de usar y divertida para toda la familia.',
     'team.videoTitle': 'Conoce a Nuestro Equipo',
+    'team.videoPending': 'Video del equipo próximamente — se publicará en el canal de YouTube de Oryxen antes del lanzamiento.',
     'pricing.title': 'Planes y Precios',
     'pricing.subtitle':
       'Elige el mejor plan que se adapte a tus necesidades de cuidado de plantas y comienza tu viaje hacia una vida más verde.',

@@ -1,0 +1,10 @@
+# Logs must never live in the landing repo (a backend run once wrote logs here by mistake).
+*.log
+api_*.log
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Firebase local artifacts
+.firebase/
